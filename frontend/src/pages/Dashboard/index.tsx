@@ -43,7 +43,7 @@ const Dashboard: React.FC = () => {
 
   useEffect(() => {
     api.get<ITask[]>('user/tasks/').then(response => {
-      setTasks(response.data.filter(task => task.is_done !== false));
+      setTasks(response.data.filter(task => task.is_done !== true));
     });
     
   }, []);
