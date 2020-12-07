@@ -10,7 +10,6 @@ import {
   Info,
   Schedule,
   Group,
-  TimeLeft,
   DeleteButton,
   DeleteIcon
 } from './styles';
